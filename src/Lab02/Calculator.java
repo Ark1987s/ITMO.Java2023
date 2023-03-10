@@ -2,63 +2,63 @@ package Lab02;
 
 public class Calculator {
 
-    public int Addition(Integer x, Integer y) {
+    public int AddCalc(Integer x, Integer y) {
 
         return x + y;
     }
 
-    public long Addition(Long x, Long y) {
+    public long AddCalc(Long x, Long y) {
+
         return x + y;
     }
 
-    public double Addition(Double x, Double y) {
+    public double AddCalc(Double x, Double y) {
+
         return x + y;
     }
 
-    public int Subtraction(Integer x, Integer y) {
+    public int SubCalc(Integer x, Integer y) {
 
         return x - y;
     }
 
-    public long Subtraction(Long x, Long y) {
+    public long SubCalc(Long x, Long y) {
 
         return x - y;
     }
 
-    public double Subtraction(Double x, Double y) {
+    public double SubCalc(Double x, Double y) {
 
         return x - y;
     }
 
-    public int Multiplication(Integer x, Integer y) {
+    public int MultiCalc(Integer x, Integer y) {
 
         return x * y;
     }
 
-    public long Multiplication(Long x, Long y) {
+    public long MultiCalc(Long x, Long y) {
 
         return x * y;
     }
 
-    public double Multiplication(Double x, Double y) {
+    public double MultiCalc(Double x, Double y) {
 
         return x * y;
     }
 
-    public int Division(Integer x, Integer y) {
+    public double DivCalc(Integer x, Integer y) {
+
+        return x*1.0 / y;
+    }
+
+    public double DivCalc(Long x, Long y) {
+
+        return x*1.0 / y;
+    }
+
+    public double DivCalc(Double x, Double y) {
 
         return x / y;
     }
-
-    public long Division(Long x, Long y) {
-
-        return x / y;
-    }
-
-    public double Division(Double x, Double y) {
-
-        return x / y;
-    }
-
-
 }

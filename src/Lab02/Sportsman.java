@@ -24,26 +24,32 @@ public class Sportsman {
     }
 
     public String getType() {
+
         return type;
     }
 
     public void setType(String type) {
+
         this.type = type;
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public Integer getAge() {
+
         return age;
     }
 
     public void setAge(Integer age) {
+
         this.age = age;
     }
 
@@ -77,5 +83,18 @@ public class Sportsman {
 
     public void setCountry(String country) {
         this.country = country;
+    }
+
+    @Override
+    public String toString() {
+        return "Sportsman{" +
+                "type:' " + type + '\''+
+                ", name:' " + name + '\''+
+                ", age: " + age +
+                ", height: " + height +
+                ", weight: " + weight +
+                ", award:' " + award + '\''+
+                ", country:' " + country + '\''+
+                '}';
     }
 }
